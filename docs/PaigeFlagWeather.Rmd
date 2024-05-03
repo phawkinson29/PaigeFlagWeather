@@ -1,0 +1,24 @@
+---
+title: "PaigeFlagWeather"
+author: "Paige Hawkinson"
+date: "2024-05-02"
+output: pdf_document
+---
+
+```{r message=FALSE, warning=FALSE}
+library(PaigeFlagWeather) 
+library(ggplot2)
+library(lubridate)
+
+ggplot(Flagstaff_Weather, aes(x=DATE, y=TMIN)) +
+  geom_line()
+
+```
+
+
+
+
+
+
+
+
